@@ -48,7 +48,7 @@ struct HomeView: View {
         NavigationView {
             ZStack(alignment: Alignment(horizontal: .trailing, vertical: .bottom)) {
                 VStack {
-                    List(session.data) { i in
+                    List(self.session.data) { i in
                         TweetCell(tweet: i)
                     }
                 }
