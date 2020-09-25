@@ -7,5 +7,8 @@ target 'TwitterClone' do
 
   # Pods for TwitterClone
   pod 'Firebase/Analytics'
+  pod 'Firebase'
+  pod 'Firebase/Firestore'
+  pod 'SDWebImageSwiftUI'
 
 end
